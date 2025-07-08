@@ -1,0 +1,25 @@
+# Python / окружения / кеши
+__pycache__/
+*.py[cod]
+*.log
+*.swp
+venv/
+.venv/
+
+# Секреты и конфиги
+.env*
+secrets.*
+*.sqlite3
+*.db
+
+# Alembic (кеши и логи)
+alembic/versions/__pycache__/
+alembic/versions/*.log
+
+# APScheduler
+apscheduler_*.db
+scheduler.log
+
+# IDE
+.vscode/
+.idea/
